@@ -52,4 +52,4 @@ export const prices = [
 ]
 
 
-export const URL = "http://localhost:2024"
+export const URL = "https://bobs-commerce.onrender.com"
