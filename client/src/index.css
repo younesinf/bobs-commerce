@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .flexCenter {
+        @apply flex justify-center items-center
+    }
+
+    .flexBetween {
+        @apply flex justify-between items-center
+    }
+
+    .socialBtn {
+        @apply h-10 w-10 rounded-full flexCenter text-white
+    }
+
+    .input {
+        @apply p-2 py-1.5 rounded-md outline-none border-[1.5px] shadow-sm
+         bg-green-50
+    }
+
+    label {
+        @apply text-base mb-1
+    }
+    .icon{
+        @apply p-1.5 w-9 h-9 flexCenter rounded-full hover:bg-slate-200
+    }
+    h1,h2,h3,h4{
+        @apply font-["Cairo"]
+    }
+}
